@@ -1,0 +1,33 @@
+.quiz_box{
+
+  max-width: 500px;
+  min-width: 450px;
+  padding: 10px 15px;
+}
+
+.app_root{
+
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.btn_box{
+  
+  margin-top: 10px;
+  max-width: 200px !important;
+}
+.startbtn{
+
+  display: flex;
+  justify-content: center;
+}
+.btn_boxx{
+
+  margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .quiz_box{
+
+    min-width: 370px;
+  }
+}
